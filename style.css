@@ -1,0 +1,230 @@
+body {
+  font-family: 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
+}
+
+h2 {
+  color: #364e96;
+  border: solid 3px #364e96;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+
+.header{
+	text-align:center;
+	}
+
+	
+.head_item{
+	list-style-type:none;
+	padding-right:30px;
+	}
+	
+.link_button1 {
+  font-weight: bold;/*太字に*/
+  text-decoration: none;/*下線消す*/
+  background: skyblue;/*背景を水色に*/
+  color:white;/*文字を白に*/
+  padding:5px 10px;/*内側の余白*/
+  border-radius: 20px;/*角を丸くする*/
+  font-family: 'Avenir','Arial';/*フォントをいい感じに*/
+}
+/*以下カーソルを当てたとき*/
+.link_button:hover {
+  background: silver;/*背景色をシルバーに*/
+  text-decoration: none;/*下線を消す*/
+}
+
+/*以下訪問済みのデザイン*/
+.link_button:visited {
+  color: gray;/*文字をグレイに*/
+}
+
+.link_button2 {
+  font-weight: bold;/*太字に*/
+  text-decoration: none;/*下線消す*/
+  background: skyblue;/*背景を水色に*/
+  color:white;/*文字を白に*/
+  padding:5px 10px;/*内側の余白*/
+  border-radius: 20px;/*角を丸くする*/
+  font-family: 'Avenir','Arial';/*フォントをいい感じに*/
+}
+/*以下カーソルを当てたとき*/
+.link_button:hover {
+  background: silver;/*背景色をシルバーに*/
+  text-decoration: none;/*下線を消す*/
+}
+
+/*以下訪問済みのデザイン*/
+.link_button:visited {
+  color: gray;/*文字をグレイに*/
+}
+
+.link_button3 {
+  font-weight: bold;/*太字に*/
+  text-decoration: none;/*下線消す*/
+  background: skyblue;/*背景を水色に*/
+  color:white;/*文字を白に*/
+  padding:5px 10px;/*内側の余白*/
+  border-radius: 20px;/*角を丸くする*/
+  font-family: 'Avenir','Arial';/*フォントをいい感じに*/
+}
+
+.link_button4 {
+  font-weight: bold;/*太字に*/
+  text-decoration: none;/*下線消す*/
+  background: pink;/*背景を水色に*/
+  color:white;/*文字を白に*/
+  padding:5px 10px;/*内側の余白*/
+  border-radius: 20px;/*角を丸くする*/
+  font-family: 'Avenir','Arial';/*フォントをいい感じに*/
+}
+/*以下カーソルを当てたとき*/
+.link_button:hover {
+  background: silver;/*背景色をシルバーに*/
+  text-decoration: none;/*下線を消す*/
+}
+
+/*以下訪問済みのデザイン*/
+.link_button:visited {
+  color: gray;/*文字をグレイに*/
+}
+
+/*以下カーソルを当てたとき*/
+.link_button1:hover {
+  background: silver;/*背景色をシルバーに*/
+  text-decoration: none;/*下線を消す*/
+}
+
+.link_button2:hover {
+  background: silver;/*背景色をシルバーに*/
+  text-decoration: none;/*下線を消す*/
+}
+
+.link_button3:hover {
+  background: silver;/*背景色をシルバーに*/
+  text-decoration: none;/*下線を消す*/
+}
+
+.link_button4:hover {
+  background: silver;/*背景色をシルバーに*/
+  text-decoration: none;/*下線を消す*/
+}
+
+
+	
+ul a {
+	text-decoration: none;
+	color:white;
+	hover:red;
+	}
+	
+a:visited{
+	color:white;
+	}
+	
+	
+	
+	
+header ul li{
+	display:inline-block;
+	}
+	
+nav ul{
+	list-style-type:none;
+	text-align:center;
+	}
+	
+nav li{
+	display:inline-block;
+	width:250px;
+	text-align:center;
+	}
+	
+.container{
+	padding-left:50px;
+	}
+	
+	
+.item02 img{
+	width:50%;
+	height:50%;
+	}
+	
+.SNS{
+	display: flex;
+	}
+	
+.SNS-icon{
+	padding-bottom:120px;
+	}
+	
+.attention{
+	padding-left:50px;
+	padding-bottom:50px;
+	}
+	
+footer{
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:20px;
+	padding-left:20px;
+	background-color:gray;
+	}
+	
+
+
+	.map {
+	margin: 16px auto;
+	text-align: center;
+	display: block;
+}
+.map .text {
+	text-align: left;
+	display: inline-block;
+}
+	
+	
+	
+.follow-me {
+  list-style: none;
+  margin: 0 0 -8px;
+  overflow: hidden;
+}
+
+.follow-me li {
+  float: left;
+  margin: 0 8px 8px 0;
+  padding: 0;
+}
+
+.follow-me li a::before {
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 26px;
+  height: 42px; /* Button height */
+  line-height: 42px; /* Button height */
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  text-align: center;
+  width: 142px; /* Button width */
+}
+
+.follow-me li a[href*="twitter.com"]::before        { border-color: #55acee; background-color: #55acee; content: "\f099"; }
+
+.follow-me li a[href*="instagram.com"]::before      { border-color: #125688; background-color: #125688; content: "\f16d"; }
+
+.follow-me li a:hover::before {
+  background-color: #fff;
+}
+
+.follow-me li a[href*="https://twitter.com/home"]:hover::before        { color: #55acee; }
+
+.follow-me li a[href*="https://www.instagram.com"]:hover::before      { color: #12568; }
+
+
